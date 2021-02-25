@@ -1,6 +1,6 @@
 
 .header {
-	display:flex;
+	display:flex ;
 	flex-direction: column;
 	align-items: center;
 	background-image: url( block1.jpg);
