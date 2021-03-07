@@ -1,0 +1,21 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+iframe {
+  border: none;
+}
+
+.main__block{
+		box-sizing: border-box;
+}
