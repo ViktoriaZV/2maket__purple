@@ -18,14 +18,14 @@ video__play.addEventListener('click', function(event) {
 
   // <!-- Initialize Swiper -->
 
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + '</span>';
-        },
-      },
-    });
+const swiper = new Swiper('.swiper-container', {
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    renderBullet: function(index, className) {
+      return `<div class="${className}"></div>`;
+    },
+  },
+});
 
 
